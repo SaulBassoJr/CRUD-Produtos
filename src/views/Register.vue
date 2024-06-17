@@ -30,9 +30,9 @@ export default {
     return {
       email: '',
       password: '',
-      name: '', // Add name field for registration
-      password_confirmation: '', // Add password confirmation field for registration
-      isRegister: false // Initialize isRegister to false for login mode
+      name: '',
+      password_confirmation: '',
+      isRegister: false
     }
   },
   methods: {

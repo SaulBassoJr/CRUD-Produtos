@@ -42,18 +42,17 @@ export default {
   data() {
     return {
       products: [],
-      hoveredProduct: null, // Armazena o ID do produto que está sendo "hovered"
+      hoveredProduct: null,
       showForm: false
     }
   },
   created() {
-    // Aqui você pode buscar os produtos da API
+    // Buscar os produtos da API (não funcional)
     this.fetchProducts()
   },
   methods: {
     fetchProducts() {
-      // Exemplo de dados estáticos
-      // Substitua este trecho com uma chamada real à API para buscar os produtos
+      // Dados estáticos para apresentação
       this.products = [
         {
           id: 1,
@@ -74,11 +73,9 @@ export default {
       ]
     },
     editProduct(productId) {
-      // Lógica para editar o produto
       console.log('Editar produto com ID:', productId)
     },
     deleteProduct(productId) {
-      // Lógica para excluir o produto
       console.log('Excluir produto com ID:', productId)
     }
   }
@@ -98,7 +95,7 @@ export default {
   padding: 16px;
   width: 200px;
   text-align: center;
-  position: relative; /* Necessário para posicionar os botões */
+  position: relative;
 }
 
 .product-photo {

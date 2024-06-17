@@ -28,12 +28,6 @@ export default {
 
 <style>
 nav {
-  /* background-color: #c8cbcc;
-  overflow: hidden;
-  margin: 0;
-  height: 60px;
-  align-content: center;
-  text-align: center; */
   display: flex;
   justify-content: flex-start;
   background-color: #c8cbcc;
